@@ -3,7 +3,10 @@
   <head>
     <!-- Basic metadata -->
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
 
     <title>Link Space | AR.dev</title>
 
@@ -135,8 +138,12 @@
             rel="noopener noreferrer"
             aria-label="Instagram"
           >
-            <span class="social-symbol instagram">◎</span><span>Instagram</span
-            ><span class="out-arrow">↗</span>
+            <span class="social-symbol instagram"
+              ><svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="3" y="3" width="18" height="18" rx="5" />
+                <circle cx="12" cy="12" r="4" />
+                <path d="M17.5 6.5h.01" /></svg></span
+            ><span>Instagram</span><span class="out-arrow">↗</span>
           </a>
           <a
             href="https://github.com/ayush-rathour"
@@ -144,8 +151,12 @@
             rel="noopener noreferrer"
             aria-label="GitHub"
           >
-            <span class="social-symbol github">⌘</span><span>GitHub</span
-            ><span class="out-arrow">↗</span>
+            <span class="social-symbol github"
+              ><svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12 12 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"
+                /></svg></span
+            ><span>GitHub</span><span class="out-arrow">↗</span>
           </a>
         </nav>
       </section>
@@ -155,12 +166,31 @@
           <div>
             <p class="eyebrow">A FEW THINGS I'VE MADE</p>
             <h2 id="projects-title">
-              Selected work <span id="project-count">(02)</span>
+              Selected work <span id="project-count">(04)</span>
             </h2>
           </div>
           <span class="section-side-note">PROJECTS <i>↘</i></span>
         </div>
-        <div class="project-list" id="project-list" aria-live="polite"></div>
+        <div class="project-list" id="project-list" aria-live="polite">
+          <noscript>
+            <a class="project-card" href="https://noviq.ayushrathour.site"
+              ><h3>NOVIQ</h3></a
+            >
+            <a class="project-card" href="https://fintrack.ayushrathour.site"
+              ><h3>FinTrack</h3></a
+            >
+            <a
+              class="project-card"
+              href="https://github.com/ayush-rathour/python-projects"
+              ><h3>Python Utilities</h3></a
+            >
+            <a
+              class="project-card"
+              href="https://github.com/ayush-rathour/c-projects"
+              ><h3>C Projects</h3></a
+            >
+          </noscript>
+        </div>
       </section>
 
       <footer class="footer">

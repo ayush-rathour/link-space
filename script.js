@@ -23,7 +23,7 @@ const projects = [
     id: "fintrack",
     name: "FinTrack",
     description:
-      "A simple, privacy-first way to track expenses, budgets and money habits.",
+      "A privacy-first way to track expenses, budgets and money habits.",
     category: "PERSONAL FINANCE",
     tags: ["FINANCE", "PWA", "OFFLINE"],
     url: "https://fintrack.ayushrathour.site",
@@ -36,7 +36,7 @@ const projects = [
     id: "python-utilities",
     name: "Python Utilities",
     description:
-      "A collection of practical Python command-line tools, from calculators to converters and automation utilities.",
+      "Practical Python command-line tools, from calculators to automation scripts.",
     category: "PYTHON CLI TOOLS",
     tags: ["PYTHON", "CLI", "AUTOMATION"],
     url: "https://github.com/ayush-rathour/python-projects",
@@ -49,7 +49,7 @@ const projects = [
     id: "c-projects",
     name: "C Projects",
     description:
-      "A collection of C programming projects focused on problem-solving, programming logic and core fundamentals.",
+      "C programs focused on problem-solving, logic and core fundamentals.",
     category: "C PROGRAMMING",
     tags: ["C", "LOGIC", "PROGRAMMING"],
     url: "https://github.com/ayush-rathour/c-projects",
